@@ -1,7 +1,14 @@
 #ifndef DECK_H
 #define DECK_H
 
-
+/**
+* enum kind_e - suit of the card
+*
+* @SPADE: 0, or spades
+* @HEART: 1, or hearts
+* @CLUB: 2, or clubs
+* @DIAMOND: 3, or diamonds
+ */
 typedef enum kind_e
 {
     SPADE = 0,
